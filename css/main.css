@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(193.2deg, #515151 -4.91%, #46c5cd 26.78%, #15c0ca 70.21%, #44a7ad 92.78%, #828687 107.77%);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.wrapper {
+  padding: 0.8em 1em;
+  height: -webkit-fill-available;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.section1 .settings {
+  width: 1.3em;
+  height: 1.3em;
+  background: rgba(230, 230, 230, 0.45);
+  padding: 0.5em;
+  border-radius: 0.8em;
+}
+.section1 .logout {
+  width: 1.3em;
+  height: 1.3em;
+  background: rgba(230, 230, 230, 0.45);
+  padding: 0.5em;
+  border-radius: 0.8em;
+}
+
+.section2 {
+  background: rgba(230, 230, 230, 0.27);
+  border-radius: 1.2em;
+  box-shadow: 0px 0px 13px 1px rgba(76, 76, 76, 0.4);
+  padding-inline: 1em;
+}
+
+.delete {
+  display: flex;
+  justify-content: center;
+}
+.delete .trash {
+  width: 1em;
+  padding: 0.6em;
+  height: 1em;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info .face-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info .face-name .face {
+  width: 3em;
+  height: 3em;
+  background: rgba(236, 236, 236, 0.4588235294);
+  border-radius: 1.2em;
+  padding: 1.2em;
+}
+.info .face-name .name {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 0.9em;
+  padding: 0.6em;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 0 0.2em;
+}
+.contact .phone-number {
+  display: flex;
+  align-items: center;
+}
+.contact .phone-number .full-phone {
+  padding: 0.2em 0 0 0;
+}
+.contact .phone-number .full-phone .phone1 {
+  position: absolute;
+  width: 0.9em;
+  height: 0.9em;
+}
+.contact .phone-number .full-phone .phone2 {
+  position: relative;
+  width: 0.9em;
+  height: 0.9em;
+}
+.contact .phone-number .number {
+  color: rgba(255, 255, 255, 0.768627451);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 0.6em;
+  margin-left: 0.5em;
+}
+.contact .mail-address {
+  display: flex;
+  align-items: center;
+}
+.contact .mail-address .mail {
+  position: relative;
+  width: 0.9em;
+  height: 0.9em;
+}
+.contact .mail-address .address {
+  color: rgba(255, 255, 255, 0.768627451);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 0.6em;
+  margin-left: 0.5em;
+}
+
+.edit {
+  float: right;
+  width: 0.9em;
+  height: 0.9em;
+  padding: 0.3em;
+  border: 1px solid white;
+  border-radius: 0.4em;
+  background: rgba(23, 215, 226, 0.65);
+  fill: white;
+  box-shadow: 0px 0px 2px 1px rgba(76, 76, 76, 0.18);
+}
+
+.section3 {
+  background: rgba(255, 255, 255, 0.65);
+  margin: auto;
+  border-radius: 1.2em;
+  padding-inline: 1em;
+  margin-top: 2.5em;
+  margin-bottom: 100%;
+}
+.section3 .header {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-inline: 1.5em;
+  padding-top: 2.5em;
+}
+.section3 .header h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+.section3 .header p {
+  display: inline;
+  color: rgb(108, 120, 121);
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 0.6em;
+}
+.section3 .header .elipse {
+  width: 0.4em;
+}
+.section3 .content .range {
+  padding-inline: 1.5em;
+  padding-top: 1em;
+  height: 1em;
+}
+.section3 .content .range input {
+  width: 100%;
+}
+.section3 .content .range .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section3 .content .range .flex p {
+  color: rgb(108, 120, 121);
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 0.6em;
+}
+.section3 .content .range .flex output {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 0.6em;
+}
+.section3 .content .content-table {
+  padding: 1em 1.5em;
+  margin-top: 0.5em;
+}
+.section3 .content .content-table h2 {
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 0.6em;
+}
+.section3 .content .content-table p {
+  color: rgb(108, 120, 121);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 0.6em;
+}
+.section3 .content .content-table .row1,
+.section3 .content .content-table .row2,
+.section3 .content .content-table .row3 {
+  padding: 0.8em 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-top: 1px solid grey;
+  align-items: baseline;
+  text-align: left;
+  align-content: center;
+  justify-items: start;
+}/*# sourceMappingURL=main.css.map */
